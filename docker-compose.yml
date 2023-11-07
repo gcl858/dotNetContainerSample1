@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  blazorwasm1:
+    image: gcl858/blazorwasm1:0.3
+#    build:
+#      context: .
+#      dockerfile: BlazorWasm1/Dockerfile
+    container_name: blazorwasm1
+    ports:
+      - 5081:81
+
+  openresty1:
+    image: gcl858/myopenresty:0.2
+    container_name: openresty1
+    ports:
+      - 8080:80
+
+  webapi1:
+    image: gcl858/webapi1:0.2
+    container_name: webapi1
+    ports:
+      - 3082:82
+#    build:
+#      context: .
+#      dockerfile: WebApi1/Dockerfile
+
+#docker compose -f docker-compose.yml up -d
+
