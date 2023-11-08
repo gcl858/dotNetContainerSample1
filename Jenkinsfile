@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'blue ocean Test'
+        echo 'dscfsdcsdc'
+        echo '11111111111111111'
       }
     }
 
