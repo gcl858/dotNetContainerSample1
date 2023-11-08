@@ -2,6 +2,8 @@
 # dotNetContainerSample1
 .Net應用容器化範例1
 
+![enter image description here](https://raw.githubusercontent.com/gcl858/dotNetContainerSample1/main/images/eCIF-PWD%E6%A1%88%E4%BE%8B.drawio.png)
+
 ## 使用免費的 play with docker
 https://labs.play-with-docker.com/
 
